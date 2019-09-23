@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Frutiger-Cn';
+  src: url('/fonts/Frutiger-Cn.eot');
+  src: url('/fonts/Frutiger-Cn.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/Frutiger-Cn.svg#Frutiger-Cn') format('svg'),
+       url('/fonts/Frutiger-Cn.ttf') format('truetype'),
+       url('/fonts/Frutiger-Cn.woff') format('woff'),
+       url('/fonts/Frutiger-Cn.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
