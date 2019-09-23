@@ -1,0 +1,16 @@
+<table id="<?php echo e($table_id); ?>" class="table table-hover">
+    <thead>
+        <tr>
+            <th>Curto</th>
+            <th>Longo</th>
+            <th>Cliques</th>
+            <th>Data</th>
+            <?php if($table_id == "admin_links_table"): ?>
+            <?php /* Show action buttons only if admin view */ ?>
+            <th>Criador</th>
+            <th>Desabilitar</th>
+            <th>Remover</th>
+            <?php endif; ?>
+        </tr>
+    </thead>
+</table>
