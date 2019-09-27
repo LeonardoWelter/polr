@@ -1,5 +1,3 @@
-<img src="https://drive.google.com/uc?export=view&id=1bHQzniyAes03CxVubpK9b-0E6_C897Tf" width="20%" height="20%" style="margin: 0 auto;">
-
 <h3>Olá {{$username}}!</h3>
 
 <p>Obrigado por realizar seu cadastro em {{env('APP_NAME')}}. Para usar sua conta,
