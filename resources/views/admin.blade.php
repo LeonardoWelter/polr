@@ -63,7 +63,7 @@
                     <table class="table">
                         <tr>
                             <th>Usuário</th>
-                            <th>Password</th>
+                            <th>Senha</th>
                             <th>Email</th>
                             <th>Cargo</th>
                             <th></th>
