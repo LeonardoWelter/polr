@@ -27,7 +27,7 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
 
 - cd /etc/apache2/sites-available
 - sudo nano polr.conf
-
+<code>
 <VirtualHost *:80>
     ServerName MODIFICAR
     ServerAlias MODIFICAR
@@ -41,7 +41,7 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
         Allow from all
     </Directory>
 </VirtualHost>
-
+</code>
 - sudo nano /etc/hosts
 - a2ensite polr.conf
 - a2enmod rewrite
