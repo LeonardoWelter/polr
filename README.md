@@ -29,19 +29,21 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
 - sudo nano polr.conf
 
 <pre>
-<VirtualHost *:80>
+<code>
+&lt;VirtualHost *:80&gt;
     ServerName MODIFICAR
     ServerAlias MODIFICAR
 
     DocumentRoot "/var/www/polr/public"
-    <Directory "/var/www/polr/public">
+    &lt;Directory "/var/www/polr/public"&gt;
         Require all granted
         Options Indexes FollowSymLinks
         AllowOverride All
         Order allow,deny
         Allow from all
-    </Directory>
-</VirtualHost>
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</code>
 </pre>
 
 - sudo nano /etc/hosts
