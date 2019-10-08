@@ -43,7 +43,7 @@
                     Senha atual: <input class="form-control password-box" type='password' name='current_password' />
                     Nova senha: <input class="form-control password-box" type='password' name='new_password' />
                     <input type="hidden" name='_token' value='{{csrf_token()}}' />
-                    <input type='submit' class='btn btn-success change-password-btn'/>
+                    <input type='submit' class='btn btn-success change-password-btn' value="Alterar"/>
                 </form>
             </div>
 
