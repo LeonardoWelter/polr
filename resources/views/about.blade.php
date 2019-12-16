@@ -27,7 +27,7 @@
        <br /> Mais informações abaixo: 
     </p>
 </div>
-<a href='#' class='btn btn-success license-btn'>Mais informações</a>
+<a href='#' class='btn btn-uergs license-btn'>Mais informações</a>
 <pre class="license" id="gpl-license">
 Copyright (C) 2013-2017 Chaoyi Zha
 

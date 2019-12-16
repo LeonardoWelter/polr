@@ -6,7 +6,7 @@
             <th>Criado em</th>
             <th>Ativo</th>
             <th>API</th>
-            <th>Cargo</th>
+            <th>Função</th>
             <th>Remover</th>
         </tr>
     </thead>

@@ -25,3 +25,4 @@
     {{env('APP_PROTOCOL')}}{{env('APP_ADDRESS')}}. Se não foi você, apenas ignore esse email.
 
 </div>
+

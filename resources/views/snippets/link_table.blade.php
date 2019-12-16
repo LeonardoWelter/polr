@@ -3,8 +3,8 @@
         <tr>
             <th>Link Encurtado</th>
             @if ($table_id == "admin_links_table")
-            <th>Link Original</th>
-            @endif
+	    <th>Link Original</th>
+	    @endif
             <th>Cliques</th>
             <th>Data</th>
             @if ($table_id == "admin_links_table")

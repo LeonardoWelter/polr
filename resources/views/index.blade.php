@@ -43,8 +43,8 @@
             </div>
         </div>
     </div>
-    <input type='submit' class='btn btn-info' id='shorten' value='Encurtar' />
-    <a href='#' class='btn btn-warning' id='show-link-options'>Opções avançadas</a>
+    <input type='submit' class='btn btn-uergs' id='shorten' value='Encurtar' />
+    <a href='#' class='btn btn-uergs2' id='show-link-options'>Opções avançadas</a>
     <input type="hidden" name='_token' value='{{csrf_token()}}' />
 </form>
 

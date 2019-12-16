@@ -19,9 +19,9 @@
         @endif
 
         <input type="hidden" name='_token' value='{{csrf_token()}}' />
-        <input type="submit" class="btn btn-default btn-success" value="Cadastrar"/>
+        <input type="submit" class="btn btn-default btn-uergs" value="Cadastrar"/>
         <p class='login-prompt'>
-            <small>Já possui uma conta? <a href='{{route('login')}}'>Entrar</a></small>
+            <small>Já possui uma conta? <a href='{{route('login')}}' class="text-uergs">Entrar</a></small>
         </p>
     </form>
 </div>

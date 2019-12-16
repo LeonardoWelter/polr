@@ -13,11 +13,12 @@
         <i class='fa fa-clipboard' aria-hidden='true' title='Copiar para área de transferência'></i>
     </div>
 </div>
-<a id="generate-qr-code" class='btn btn-primary'>Gerar QR Code</a>
-<a href='{{route('index')}}' class='btn btn-info'>Encurtar outra URL</a>
+<a id="generate-qr-code" class='btn btn-uergs'>Gerar QR Code</a>
+<a href='{{route('index')}}' class='btn btn-uergs2'>Encurtar outra URL</a>
 
 <div class="qr-code-container"></div>
-
+<br>
+<a id="download-qr-code" class="btn btn-uergs2 text-center">Download QR Code</a>
 @endsection
 
 
