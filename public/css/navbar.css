@@ -41,3 +41,102 @@
     background-color: #013422;
 }
 
+/* Botão UERGS  */
+
+.btn-uergs { 
+  color: #ffffff; 
+  background-color: #066C47; 
+  border-color: #066C47; 
+} 
+ 
+.btn-uergs:hover, 
+.btn-uergs:focus, 
+.btn-uergs:active, 
+.btn-uergs.active, 
+.open .dropdown-toggle.btn-uergs { 
+  color: #ffffff; 
+  background-color: #013422; 
+  border-color: #066C47; 
+} 
+ 
+.btn-uergs:active, 
+.btn-uergs.active, 
+.open .dropdown-toggle.btn-uergs { 
+  background-image: none; 
+} 
+ 
+.btn-uergs.disabled, 
+.btn-uergs[disabled], 
+fieldset[disabled] .btn-uergs, 
+.btn-uergs.disabled:hover, 
+.btn-uergs[disabled]:hover, 
+fieldset[disabled] .btn-uergs:hover, 
+.btn-uergs.disabled:focus, 
+.btn-uergs[disabled]:focus, 
+fieldset[disabled] .btn-uergs:focus, 
+.btn-uergs.disabled:active, 
+.btn-uergs[disabled]:active, 
+fieldset[disabled] .btn-uergs:active, 
+.btn-uergs.disabled.active, 
+.btn-uergs[disabled].active, 
+fieldset[disabled] .btn-uergs.active { 
+  background-color: #066C47; 
+  border-color: #066C47; 
+} 
+ 
+.btn-uergs .badge { 
+  color: #066C47; 
+  background-color: #ffffff; 
+}
+
+.btn-uergs2 { 
+  color: #ffffff; 
+  background-color: #07B374; 
+  border-color: #07B374; 
+} 
+ 
+.btn-uergs2:hover, 
+.btn-uergs2:focus, 
+.btn-uergs2:active, 
+.btn-uergs2.active, 
+.open .dropdown-toggle.btn-uergs2 { 
+  color: #ffffff; 
+  background-color: #099C69; 
+  border-color: #07B374; 
+} 
+ 
+.btn-uergs2:active, 
+.btn-uergs2.active, 
+.open .dropdown-toggle.btn-uergs2 { 
+  background-image: none; 
+} 
+ 
+.btn-uergs2.disabled, 
+.btn-uergs2[disabled], 
+fieldset[disabled] .btn-uergs2, 
+.btn-uergs2.disabled:hover, 
+.btn-uergs2[disabled]:hover, 
+fieldset[disabled] .btn-uergs2:hover, 
+.btn-uergs2.disabled:focus, 
+.btn-uergs2[disabled]:focus, 
+fieldset[disabled] .btn-uergs2:focus, 
+.btn-uergs2.disabled:active, 
+.btn-uergs2[disabled]:active, 
+fieldset[disabled] .btn-uergs2:active, 
+.btn-uergs2.disabled.active, 
+.btn-uergs2[disabled].active, 
+fieldset[disabled] .btn-uergs2.active { 
+  background-color: #07B374; 
+  border-color: #07B374; 
+} 
+ 
+.btn-uergs2 .badge { 
+  color: #07B374; 
+  background-color: #ffffff; 
+}
+
+/* Text UERGS  */
+
+.text-uergs {
+ color: #066c47 !important;
+}

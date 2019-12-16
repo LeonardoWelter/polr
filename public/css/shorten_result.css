@@ -22,6 +22,11 @@
     display: inline !important;
 }
 
+#download-qr-code {
+    width: 150px;
+    display: none;
+}
+
 .input-group {
     width: 40vw;
     margin: 0 auto;

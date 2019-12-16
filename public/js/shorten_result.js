@@ -20,8 +20,22 @@ $('#generate-qr-code').click(function () {
     });
     container.find('img').attr('alt', original_link);
     container.show();
+    document.getElementById('download-qr-code').style.display = 'inline';
 });
 
+$('#download-qr-code').click(function () {
+    var debug = document.getElementsByTagName('img')[0].src;
+    var debug2 = document.getElementsByTagName('img')[0].alt;
+    var debug3 = debug2.replace("http://", "");
+    console.log(debug3);
+    var debug4 = debug3.replace("/", "-");
+    console.log(debug4);
+    // alert(debug2);
+    // alert(debug);
+    // console.log(debug);
+    download(debug, debug4+".png");
+}
+)
 
 var clipboard = new Clipboard('#clipboard-copy');
 clipboard.on('success', function(e) {
@@ -39,3 +53,14 @@ $(function () {
     original_link = $('.result-box').val();
     select_text();
 });
+
+function download(dataurl, filename) {
+    var a = document.createElement("a");
+    a.href = dataurl;
+    a.setAttribute("download", filename);
+    a.click();
+ }
+
+window.onbeforeunload = function(){
+  return 'Are you sure you want to leave?';
+};
