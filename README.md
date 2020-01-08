@@ -1,8 +1,8 @@
-Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Grande do Sul;
+#Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Grande do Sul;
 
-# Instruções de instalação:
+### Instruções de instalação:
 
-### Instalação das dependências
+#### Instalação das dependências
 
 - sudo apt-get install apache2
 - sudo apt-get install libapache2-mod-php
@@ -11,7 +11,7 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
 - sudo apt-get install php7.2-mysql php7.2-curl php7.2-json php7.2-mbstring
 - sudo apt-get install zip unzip php7.2-zipsudo apt-get install php7.2-xml
 
-### Instalação do encurtador
+#### Instalação do encurtador
 
 - sudo su
 - cd /var/www
@@ -23,7 +23,7 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
 - curl -sS https://getcomposer.org/installer | php
 - php composer.phar install --no-dev -o
 
-### Configuração do Apache
+#### Configuração do Apache
 
 - cd /etc/apache2/sites-available
 - sudo nano polr.conf
@@ -50,7 +50,7 @@ Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Gr
 - a2ensite polr.conf
 - a2enmod rewrite
 
-### Configuração do Banco de Dados
+#### Configuração do Banco de Dados
 
 - sudo mysql
 
