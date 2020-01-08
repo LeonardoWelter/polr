@@ -59,5 +59,6 @@
 - GRANT ALL PRIVILEGES ON NOME_BASE. * TO 'USUARIO'@'localhost';
 
 - cd /var/www/polr
-- cp .env.setup .envchown -Rf www-data:www-data /var/www/polr
+- cp .env.setup .env
+- chown -Rf www-data:www-data /var/www/polr
 
