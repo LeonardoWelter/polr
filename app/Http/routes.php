@@ -40,6 +40,7 @@ $app->post('/login', ['as' => 'plogin', 'uses' => 'UserController@performLogin']
 $app->post('/shorten', ['as' => 'pshorten', 'uses' => 'LinkController@performShorten']);
 $app->post('/lost_password', ['as' => 'plost_password', 'uses' => 'UserController@performSendPasswordResetCode']);
 $app->post('/reset_password/{username}/{recovery_key}', ['as' => 'preset_password', 'uses' => 'UserController@performPasswordReset']);
+$app->post('/QRCodePersist', ['uses' => 'QRCodeController@uploadQRCode']);
 
 $app->post('/admin/action/change_password', ['as' => 'change_password', 'uses' => 'AdminController@changePassword']);
 

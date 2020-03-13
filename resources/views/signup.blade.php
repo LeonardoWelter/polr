@@ -29,7 +29,7 @@
     <div class='right-col-one'>
         <h4>Nome de usuário</h4>
         <p>Será usado para realizar seu login.</p>
-    </p>
+    </div>
     <div class='right-col-next'>
         <div class='right-col'>
             <h4>Senha</h4>
