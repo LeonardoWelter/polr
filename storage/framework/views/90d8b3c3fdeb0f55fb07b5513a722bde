@@ -1,7 +1,0 @@
-<?php $__env->startSection('meta'); ?>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, max-age=0, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta name="robots" content="noindex" />
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.base', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
