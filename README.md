@@ -13,7 +13,6 @@
 
 #### Instalação do encurtador
 
-- sudo su
 - cd /var/www
 - git clone https://github.com/LeonardoWelter/polr.git
 - chmod -R 755 polr
