@@ -1,10 +1,9 @@
 <div style="background-color: #fff; padding: 15px; text-align: center;">
-    <img src="https://i.imgur.com/i4C3hZZ.png" width="10%" height="15%">
 
     <h3>Olá, {{$username}}!</h3>
 
     <p>
-        Você pode utilizar o botão abaixo para alterar a senha da sua conta do Encurtador de Links da UERGS.
+        Você pode utilizar o botão abaixo para alterar a senha da sua conta do Encurtador de Links.
     </p>
     <br />
     <a href='{{env('APP_PROTOCOL')}}{{env('APP_ADDRESS')}}/reset_password/{{$username}}/{{$recovery_key}}'
@@ -15,7 +14,7 @@
     <br />
     <br />
 
-    <p>Atenciosamente,<br>Superintendência de Informática - Universidade Estadual do Rio Grande do Sul.</p>
+    <p>Atenciosamente,<br>Equipe Encurtador de URLs.</p>
 
     --
     <br />
