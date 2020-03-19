@@ -1,2 +1,0 @@
-<?php echo e($status_code); ?> <?php echo e($status_message); ?>
-
