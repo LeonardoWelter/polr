@@ -43,7 +43,7 @@
                             <input type="text" name="username" placeholder='Usuário' size="30" class="form-control login-form-field" />
                             <input type="password" name="password" placeholder='Senha' size="30" class="form-control login-form-field" />
                             <input type="hidden" name='_token' value='{{csrf_token()}}' />
-                            <input class="btn btn-uergs form-control login-form-submit" type="submit" name="login" value="Entrar" />
+                            <input class="btn btn-primary form-control login-form-submit" type="submit" name="login" value="Entrar" />
                         </form>
                     </div>
                 </li>

@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/datatables.min.css'>
 <link rel='stylesheet' href='/css/stats.css'>
 <link rel='stylesheet' href='/css/jquery-jvectormap.css'>
@@ -16,13 +15,13 @@
             <div class="col-md-3 col-md-offset-3 link-meta">
                 <p>
                     <b>Link encurtado: </b>
-                    <a target="_blank" href="{{ env('APP_PROTOCOL') }}/{{ env('APP_ADDRESS') }}/{{ $link->short_url }}" class="text-uergs">
+                    <a target="_blank" href="{{ env('APP_PROTOCOL') }}/{{ env('APP_ADDRESS') }}/{{ $link->short_url }}">
                         {{ env('APP_ADDRESS') }}/{{ $link->short_url }}
                     </a>
                 </p>
                 <p>
                     <b>Link original: </b>
-                    <a target="_blank" href="{{ $link->long_url }}" class="text-uergs">{{ str_limit($link->long_url, 50) }}</a>
+                    <a target="_blank" href="{{ $link->long_url }}">{{ str_limit($link->long_url, 50) }}</a>
                 </p>
                 {{-- <p>
                     <em>Tip: Clear the right date bound (bottom box) to set it to the current date and time. New

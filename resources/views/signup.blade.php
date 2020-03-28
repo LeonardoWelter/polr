@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/signup.css' />
 @endsection
 
@@ -19,9 +18,9 @@
         @endif
 
         <input type="hidden" name='_token' value='{{csrf_token()}}' />
-        <input type="submit" class="btn btn-default btn-uergs" value="Cadastrar"/>
+        <input type="submit" class="btn btn-default btn-primary" value="Cadastrar"/>
         <p class='login-prompt'>
-            <small>Já possui uma conta? <a href='{{route('login')}}' class="text-uergs">Entrar</a></small>
+            <small>Já possui uma conta? <a href='{{route('login')}}'>Entrar</a></small>
         </p>
     </form>
 </div>

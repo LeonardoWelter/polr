@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/about.css' />
 <link rel='stylesheet' href='/css/effects.css' />
 @endsection
@@ -27,7 +26,7 @@
        <br /> Mais informações abaixo: 
     </p>
 </div>
-<a href='#' class='btn btn-uergs license-btn'>Mais informações</a>
+<a href='#' class='btn btn-primary license-btn'>Mais informações</a>
 <pre class="license" id="gpl-license">
 Copyright (C) 2013-2017 Chaoyi Zha
 
@@ -45,8 +44,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 </pre>
-<br /> Traduzido e implementado por Leonardo Welter,
- Superintendência de Informática - Universidade Estadual do Rio Grande do Sul.
+<br /> Traduzido e modificado por Leonardo Welter, https://github.com/LeonardoWelter/.
 
 @endsection
 

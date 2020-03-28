@@ -1,17 +1,11 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='css/navbar.css' />
 <link rel='stylesheet' href='css/index.css' />
-<link rel='stylesheet' href='css/fontsuergs.css' />
 @endsection
 
 @section('content')
-<img src="/img/logo-uergs-vertical.png" height="30%" width="30%" />
-<h1 class='title'
- style="font-family: Frutiger-Cn;
- font-weight: bolder; color:#066c47;"
->Encurtador de Links</h1>
+<h1 class='title'>Encurtador de Links</h1>
 
 <form method='POST' action='/shorten' role='form'>
     <input type='url' autocomplete='off'
@@ -24,7 +18,7 @@
         {{-- Show secret toggle only if using counter-based ending --}}
         <div class='btn-group btn-toggle visibility-toggler' data-toggle='buttons'>
             <label class='btn btn-primary btn-sm active'>
-                <input type='radio' name='options' value='p' checked /> Publico
+                <input type='radio' name='options' value='p' checked /> Público
             </label>
             <label class='btn btn-sm btn-default'>
                 <input type='radio' name='options' value='s' /> Privado
@@ -43,8 +37,8 @@
             </div>
         </div>
     </div>
-    <input type='submit' class='btn btn-uergs' id='shorten' value='Encurtar' />
-    <a href='#' class='btn btn-uergs2' id='show-link-options'>Opções avançadas</a>
+    <input type='submit' class='btn btn-primary' id='shorten' value='Encurtar' />
+    <a href='#' class='btn btn-warning' id='show-link-options'>Opções avançadas</a>
     <input type="hidden" name='_token' value='{{csrf_token()}}' />
 </form>
 

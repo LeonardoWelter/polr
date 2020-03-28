@@ -35,7 +35,6 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
     <link rel="stylesheet" href="/css/default-bootstrap.min.css">
     @endif
 
-    <link rel='stylesheet' href='css/navbar.css' />
     <link href="/css/base.css" rel="stylesheet">
     <link href="/css/toastr.min.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">

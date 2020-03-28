@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/reset_password.css' />
 @endsection
 

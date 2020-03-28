@@ -1,7 +1,6 @@
 @extends('layouts.base')
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/admin.css'>
 <link rel='stylesheet' href='/css/datatables.min.css'>
 @endsection
@@ -43,7 +42,7 @@
                     Senha atual: <input class="form-control password-box" type='password' name='current_password' />
                     Nova senha: <input class="form-control password-box" type='password' name='new_password' />
                     <input type="hidden" name='_token' value='{{csrf_token()}}' />
-                    <input type='submit' class='btn btn-uergs change-password-btn' value="Alterar"/>
+                    <input type='submit' class='btn btn-primary change-password-btn' value="Alterar"/>
                 </form>
             </div>
 
@@ -133,7 +132,7 @@
             old-long-link="modal.oldLongLink" clean-modals="cleanModals"></edit-long-link-modal>
         <edit-user-api-info-modal ng-repeat="modal in modals.editUserApiInfo" user-id="modal.userId"
             api-quota="modal.apiQuota" api-active="modal.apiActive" api-key="modal.apiKey"
-            generate-new-api-key="generateNewAPIKey" clean-modals="cleanModals"></edit-user-api-info>
+            generate-new-api-key="generateNewAPIKey" clean-modals="cleanModals"></edit-user-api-info-modal>
     </div>
 </div>
 

@@ -5,7 +5,6 @@ Setup
 @endsection
 
 @section('css')
-<link rel='stylesheet' href='/css/navbar.css' />
 <link rel='stylesheet' href='/css/default-bootstrap.min.css'>
 <link rel='stylesheet' href='/css/setup.css'>
 @endsection
