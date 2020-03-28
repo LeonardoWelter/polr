@@ -1,4 +1,4 @@
-# Fork do Encurtador de URL Polr modificado para a Universidade Estadual do Rio Grande do Sul;
+# Fork do Encurtador de URL Polr traduzido para Português Brasileiro;
 
 ### Instruções de instalação:
 
@@ -9,7 +9,8 @@
 - sudo systemctl restart apache2
 - sudo apt-get install mysql-server
 - sudo apt-get install php7.2-mysql php7.2-curl php7.2-json php7.2-mbstring
-- sudo apt-get install zip unzip php7.2-zipsudo apt-get install php7.2-xml
+- sudo apt-get install zip unzip php7.2-zip
+- sudo apt-get install php7.2-xml
 
 #### Instalação do encurtador
 

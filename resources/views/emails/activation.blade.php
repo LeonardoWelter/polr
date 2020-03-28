@@ -1,10 +1,9 @@
 <div style="background-color: #fff; padding: 15px; text-align: center;">
-    <img src="https://i.imgur.com/i4C3hZZ.png" width="10%" height="15%">
 
     <h3>Olá, {{$username}}!</h3>
 
     <p>
-        Obrigado por realizar seu cadastro no Encurtador de Links da UERGS. Para usar sua conta, você precisará ativar a mesma clicando no botão abaixo.
+        Obrigado por realizar seu cadastro no Encurtador de Links. Para usar sua conta, você precisará ativar a mesma clicando no botão abaixo.
     </p>
 
     <br />
@@ -17,7 +16,7 @@
     <br />
     <br />
 
-    <p>Atenciosamente,<br>Superintendência de Informática - Universidade Estadual do Rio Grande do Sul.</p>
+    <p>Atenciosamente,<br>Equipe Encurtador de URLs.</p>
 
     --
     <br />
